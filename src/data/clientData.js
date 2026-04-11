@@ -103,7 +103,7 @@ const clientData = {
     }
   ],
 
-  showProjectsSection: true,
+  showProjectsSection: true,  //If want to hide projects section, set this to "false" 
   projects: [
     {
       id: 1,
@@ -123,7 +123,7 @@ const clientData = {
       techStack: ["React", "D3.js", "Firebase"],
       demoLink: "https://example.com",
       codeLink: "https://github.com",
-      showCode: false,
+      showCode: false, //Set showCode to "false" if client doesn't want to show code link for this project
     },
     {
       id: 3,
@@ -137,7 +137,7 @@ const clientData = {
     }
   ],
 
-  showBlogsSection: true,
+  showBlogsSection: true, //If want to hide blogs section, set this to "false"
   blogs: [
     {
       id: 1,
